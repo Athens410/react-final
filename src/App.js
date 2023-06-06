@@ -2,6 +2,7 @@
 import './App.css';
 import '@fortawesome/fontawesome-free/css/all.css';
 import Weather from './Weather';
+import './Weather.css';
 
 
 function App() {

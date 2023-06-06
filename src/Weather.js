@@ -3,6 +3,7 @@ import axios from 'axios';
 import React, {useState} from "react";
 import {InfinitySpin}  from  'react-loader-spinner';
 import {Oval} from 'react-loader-spinner';
+import './Weather.css';
 
 import WeatherInfo from './WeatherInfo';
 
@@ -77,8 +78,8 @@ if(weatherData.ready){
 
             <h1 className="glowing-text">SheCodes React Weather Search Engine</h1>
         <form onSubmit={handleSubmit}>
-            <input type="search" placeholder="type a city.." className="form-contorl" autoFocus="on" onChange={handleCityChange}/>
-            <input type="submit" value="search" className="btn btn-primary" />
+            <input type="search" placeholder="type a city.." className="form-contorl"  autoFocus="on" onChange={handleCityChange}/>
+            <input type="submit" value="search" class="button" />
             { city && (
   <div className="loader-spinner">
     <InfinitySpin width={200} color="aqua" />
@@ -105,12 +106,12 @@ if(weatherData.ready){
   return (<Oval
   height={100}
   width={100}
-  color="black"
+  color="white"
   wrapperStyle={{}}
   wrapperClass=""
   visible={true}
   ariaLabel='oval-loading'
-  secondaryColor="aqua"
+  secondaryColor="pink"
   strokeWidth={5}
   strokeWidthSecondary={3}
 
