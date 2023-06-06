@@ -8,12 +8,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div className="border">
+       <div className="lines">
 
        <Weather defaultCity="Toronto"/>
 
-
-        </div>
+</div>
+       
     <ul className="nav justify-content-center mt-5">
   <li className="nav-item">
     <a className="nav-link active" href="https://www.shecodes.io/" target="_blank" rel="noreferrer" title="SheCodes profile">

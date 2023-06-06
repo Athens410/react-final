@@ -6,7 +6,13 @@
   height: 40vmin;
   pointer-events: none;
 }
+.lines{
 
+  border: 3px solid red;
+  padding: 100px;
+  margin-top: 12px;
+  border-radius: 10px;
+}
 .glowing-text{
 
 margin-bottom: 100px;
