@@ -1,6 +1,7 @@
 
 import './App.css';
 import '@fortawesome/fontawesome-free/css/all.css';
+import Weather from './Weather';
 
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="border">
-         <button type="button" class="btn btn-primary">Primary</button>
+
+       <Weather defaultCity="Toronto"/>
 
 
         </div>
@@ -27,7 +29,7 @@ function App() {
     </a>
   </li>
   <li className="nav-item">
-    <a className="nav-link" href="https://github.com/Athens410/Portfolio-Project-Git.git" target="_blank" rel="noreferrer" title="GitHub profile">
+    <a className="nav-link" href="https://github.com/Athens410/react-final.git" target="_blank" rel="noreferrer" title="GitHub profile">
       <i className="fab fa-github"></i>
     </a>
   </li>
