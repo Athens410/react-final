@@ -1,3 +1,12 @@
-.form-control {
-    box-shadow: 6px 5px 20px rgb(248, 246, 246) ;
+.back {
+    box-shadow: 2px 2px 20px rgb(248, 246, 246) ;
+    border: 3px solid ;
+    border-radius: 12px;
+    padding: 4px;
+    margin: 10px;
+    margin-bottom: 44px;
+}
+.temperature{
+
+    font-size: 55px;
 }
