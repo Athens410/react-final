@@ -41,7 +41,7 @@ function App() {
        </div>
    
    
-   
+   <div className="new">
    
     <ul className="nav justify-content-center mt-5">
   <li className="nav-item">
@@ -63,7 +63,7 @@ function App() {
     </a>
   </li>
 </ul>
-
+</div>
 
         
       </header>

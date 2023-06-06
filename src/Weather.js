@@ -111,7 +111,7 @@ if(weatherData.ready){
   wrapperClass=""
   visible={true}
   ariaLabel='oval-loading'
-  secondaryColor="pink"
+  secondaryColor="aqua"
   strokeWidth={5}
   strokeWidthSecondary={3}
 
