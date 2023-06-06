@@ -10,3 +10,15 @@
 
     font-size: 55px;
 }
+.star{
+    color: rgb(255, 0, 200);
+    text-decoration: none;
+
+}
+.star:hover{
+    color: aliceblue;
+}
+.end{
+    font-family: 'Red Hat Display', sans-serif;
+    text-shadow: 10px 5px 10px rgb(255, 255, 255);
+}

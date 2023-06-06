@@ -15,25 +15,26 @@ function App() {
 
 </div>
 <div className="end">
-   This project was coded by
+   This project was coded by{""} {""}
           <a href="https://www.delac.io/" 
           rel="noreferrer"
-          target="_blank">
+          target="_blank"
+          class="star">
             Athenah Coucean
-          </a>
-          and is
+          </a>{""} {""}
+          and is{""} {""}
           <a
             href="https://github.com/Athens410/react-final.git"
             rel="noreferrer"
-            target="_blank"
+            target="_blank" class="star"
           >
-            open-sourced on GitHub
+            open-sourced on GitHub{""} {""}
           </a>
-          and
+          and{""} {""}
           <a
             href="https://main--stunning-nasturtium-43eab0.netlify.app/"
             rel="noreferrer"
-            target="_blank"
+            target="_blank" class="star"
           >
             hosted on Netlify
           </a>
