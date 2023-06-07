@@ -20,7 +20,7 @@ function handleResponse(response){
 
           setWeatherData({
             ready: true,
-            coordinates: response.data.coordinates,
+            coord:response.data.coord,
              temperature: response.data.main.temp,
              humidity: response.data.main.humidity,
              description: response.data.weather[0].description,
@@ -94,7 +94,7 @@ if(weatherData.ready){
    
         <WeatherInfo data ={weatherData} />
           
-        <WeatherForecast  coordinates={weatherData.coordinates}/>
+        <WeatherForecast coord={weatherData.coord} />
        
 
              
