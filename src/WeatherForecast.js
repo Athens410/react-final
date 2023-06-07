@@ -24,15 +24,15 @@ return(
   <div className="WeatherForecast">
         <div className="row">
         <div className="col">
-          <div className="WeatherForecast-day">Thur</div>
-           <WeatherIcon code="01d"  size={42}/>
+          <div className="WeatherForecast-day">{forecast[0].dt}</div>
+           <WeatherIcon code={forecast[0].weather[0].icon}  size={42}/>
             <div className="WeatherForecast-temperatures"> 
-            <span className="WeatherForecast-temperature-max">19° </span>
+            <span className="WeatherForecast-temperature-max">{forecast[0].temp.max}° </span>
            
            
             <span className="WeatherForecast-temperature-min"> 
             
-            10°
+            {forecast[0].temp.min}°
              </span>
              
 
