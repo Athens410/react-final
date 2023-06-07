@@ -29,7 +29,7 @@ return(
 
             
             
-            <WeatherForecastDay    data={forecast[0]}      />
+            <WeatherForecastDay  data={forecast[0]}  />
             
             
             
