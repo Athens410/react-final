@@ -24,12 +24,31 @@ function handleResponse(response){
 return(
   <div className="WeatherForecast">
         <div className="row">
-        <div className="col">
+     
+
+            {forecast.map(function(dailyForecast, index)         {
+
+
+if(index < 5){
+return (
+     <div className="col" key={index}>
         
 
+ <WeatherForecastDay  data={dailyForecast}  />
+
+</div>
+
+);
+
+
+}
+
+
+
+
+            })}
             
-            
-            <WeatherForecastDay  data={forecast[0]}  />
+           
             
             
             
@@ -41,7 +60,7 @@ return(
             
             
             
-             </div>
+          
                
 
 
