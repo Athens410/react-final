@@ -28,3 +28,10 @@
 .nav-item .nav-link :hover {
     color: #ffffff;
 }
+.WeatherForecast{
+    text-align: center;
+}
+.WeatherForecast-temperature-min{
+    opacity: 0.6;
+    margin: 5px;
+}

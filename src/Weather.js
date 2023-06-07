@@ -4,6 +4,7 @@ import React, {useState} from "react";
 import {InfinitySpin}  from  'react-loader-spinner';
 import {Oval} from 'react-loader-spinner';
 import './Weather.css';
+import WeatherForecast from './WeatherForecast';
 
 import WeatherInfo from './WeatherInfo';
 
@@ -92,7 +93,7 @@ if(weatherData.ready){
    
         <WeatherInfo data ={weatherData} />
           
-        
+        <WeatherForecast />
        
 
              
