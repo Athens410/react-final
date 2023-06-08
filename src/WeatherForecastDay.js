@@ -26,14 +26,14 @@ return `${temperature}°`;
 }
 
 
-    function day (){
-    let date = new Date(props.data.dt *1000);
+   function day() {
+    let date = new Date(props.data.dt * 1000);
     let day = date.getDay();
-      return days[day];
-     let days = ["Sun","Mon","Tues","Wed","Thur","Fri","Sat"];
-        
-    }
 
+    let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+
+    return days[day];
+  }
 
 
 

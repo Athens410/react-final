@@ -26,7 +26,7 @@ return(
         <div className="row">
      
 
-            {forecast.map(function(dailyForecast, index)         {
+            {forecast.map(function(dailyForecast, index) {
 
 
 if(index < 5){
